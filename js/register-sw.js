@@ -1,6 +1,6 @@
 if ("serviceWorker" in navigator) {
 	navigator.serviceWorker.register("../service-worker.js").then((reg) => {
-		console.log("Service worker esta listo!");
+		console.log("Service worker listo!");
 	});
 } else {
 	console.log("Service worker no soportado.");

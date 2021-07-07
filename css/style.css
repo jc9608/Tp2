@@ -150,7 +150,22 @@ header > div > div > div {
 nav {
 	padding: 0 4em;
 }
+.img-offline{
+	max-width: 50%;
+	width: 50%;
+	display: block;
+	margin: 1em auto;
+	padding: 1em;
+}
+.valoracion{
+	font-size: 0.8em;
+	color: rgb(160, 160, 160);
+}
 @media screen and (max-width: 500px) {
+	.img-offline{
+		width: 100%;
+		max-width: 100%;
+	}
 	.input-group{
 		width: 100%;
 	}

@@ -34,7 +34,7 @@ function consultaApi(infoMovie) {
             <div class="card-body">
             <h2 class="card-title">${infoMovie.Title}</h2>
             <p class="card-text">${infoMovie.Plot}</p>
-            <p class="card-text"><small class="text-muted">Valoración: ${infoMovie.imdbRating}</small></p>
+            <p class="card-text valoracion">Valoración: ${infoMovie.imdbRating}</p>
             </div>
         </div>
         </div>
