@@ -6,6 +6,8 @@ const precache = [
 	"./offline.html",
 	"./css/style.css",
 	"./favicon.ico",
+	"./css/bootstrap.css",
+	"./res/offline.svg",
 ];
 
 self.addEventListener("install", (event) => {
