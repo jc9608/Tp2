@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1"
+		/>
+		<title>Julián Cabral - Cátedra PWA - DWN3A</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&display=swap"
+			rel="stylesheet"
+		/>
+		<script rel="manifest" src="manifest.webmanifest"></script>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">Flick<span>Land</span></a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNavAltMarkup"
+						aria-controls="navbarNavAltMarkup"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+							<a class="nav-link" href="search.html">Buscar</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-12">
+						<h1 class="mt-5">Realizá tu búsqueda acá</h1>
+						<form class="input-group mb-3" id="formulario">
+							<label for="busquedaUsuario" class="col-12 mt-4 mb-3">
+								Por favor, ingresá el nombre de una pelicula (en inglés) acá debajo y descubrí toda su información. Verás la misma más abajo y por el momento, unicamente en inglés.
+							</label>
+							<input
+								type="text"
+								id="busquedaUsuario"
+                                name="busquedaUsuario"
+								class="form-control"
+								value=""
+								placeholder="Ingresa acá tu pelicula"
+								required
+							/>
+							<div class="input-group-append">
+								<button
+									id="btnSearch"
+									class="btn btn-outline-secondary"
+									type="submit"
+								>
+									Buscar
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			 
+			<div id="movieinfo">
+			 
+			</div>
+		</main>
+		<footer>
+			<ul>
+				<li>Alumno: Julián Cabral</li>
+				<li>TP2 - PWA</li>
+				<li>Comisión: DWN3A</li>
+				<li>Año: 2021</li>
+			</ul>
+		</footer>
+		<script src="js/register-sw.js"></script>
+		<script src="js/movies.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
