@@ -34,7 +34,16 @@ function consultaApi(infoMovie) {
             <div class="card-body">
             <h2 class="card-title">${infoMovie.Title}</h2>
             <p class="card-text">${infoMovie.Plot}</p>
-            <p class="card-text valoracion">Valoración: ${infoMovie.imdbRating}</p>
+            <p class="card-text masInfo">Valoración: <strong>${infoMovie.imdbRating}</strong></p>
+            <p class="card-text masInfo">Director: <strong>${infoMovie.Director}</strong></p>
+            <p class="card-text masInfo">Duración: <strong>${infoMovie.Runtime}</strong></p>
+            <p class="card-text masInfo">Año: <strong>${infoMovie.Year}</strong></p>
+            <p class="card-text masInfo">Productora: <strong>${infoMovie.Production}</strong></p>
+            <p class="card-text masInfo">Género: <strong>${infoMovie.Genre}</strong></p>
+            <p class="card-text masInfo">Actores: <strong>${infoMovie.Actors}</strong></p>
+            <p class="card-text masInfo">Total recaudado: <strong>${infoMovie.BoxOffice}</strong></p>
+            <p class="card-text masInfo">Idioma original: <strong>${infoMovie.Language}</strong></p>
+            
             </div>
         </div>
         </div>

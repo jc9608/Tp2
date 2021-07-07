@@ -147,6 +147,10 @@ header > div > div > div {
 	margin: 1em auto;
 	display: block;
 }
+p strong {
+	color: var(--color-acc);
+	font-weight: 600;
+}
 nav {
 	padding: 0 4em;
 }
@@ -157,11 +161,16 @@ nav {
 	margin: 1em auto;
 	padding: 1em;
 }
-.valoracion{
+.masInfo{
 	font-size: 0.8em;
 	color: rgb(160, 160, 160);
+	margin-bottom: 0;
 }
 @media screen and (max-width: 500px) {
+	.card-title{
+	margin-top: 0.5em !important;
+	margin-bottom: 1em;
+	}
 	.img-offline{
 		width: 100%;
 		max-width: 100%;
